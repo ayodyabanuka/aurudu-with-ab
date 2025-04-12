@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <link rel='shortcut icon' href='/favicon.webp' type='image/x-icon' />
+        <link rel='shortcut icon' href='/favicon.png' type='image/x-icon' />
       </head>
       <body className={`${sinhala.className}  antialiased`}>{children}</body>
     </html>
