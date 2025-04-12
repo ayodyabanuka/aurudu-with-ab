@@ -106,7 +106,7 @@ export default function Home() {
         <div className='text-center font-bold text-3xl py-3'>
           2025 අලුත් අවුරුදු නැකැත්
         </div>
-        <div className='text-lg py-3 text-justify'>
+        <div className='text-sm lg:text-lg py-3 text-justify'>
           සිංහලෙන් අලුත් අවුරුද්ද ලෙසත් දෙමළෙන් පුතණ්ඩු ලෙසත් හඳුන්වන සිංහල සහ
           දෙමළ අලුත් අවුරුද්ද, ශ්‍රී ලංකාවේ වඩාත්ම වැදගත් සංස්කෘතික සැමරුමකි. එය
           පැරණි වසරේ අවසානය සහ නව වසරේ ආරම්භය සනිටුහන් කරයි, එය මීන රාශියේ (මීන)
