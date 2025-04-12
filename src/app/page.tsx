@@ -3,8 +3,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { intervalToDuration } from 'date-fns';
 import { events } from '@/utils';
-import { GoMute, GoPlay, GoUnmute } from 'react-icons/go';
-import { BiPause, BiPlay, BiStop } from 'react-icons/bi';
+import { GoMute, GoUnmute } from 'react-icons/go';
+import { BiPlay, BiStop } from 'react-icons/bi';
 import Link from 'next/link';
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
     audioRef.current.volume = 0.5;
 
     if (isPlaying) {
-      audioRef.current.play().catch((e) => {
+      audioRef.current.play().catch(() => {
         console.log('Autoplay prevented. User interaction required.');
       });
     } else {
