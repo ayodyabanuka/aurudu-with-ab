@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Noto_Sans_Sinhala } from 'next/font/google';
+import { Yaldevi } from 'next/font/google';
 import './globals.css';
 
-const sinhala = Noto_Sans_Sinhala({
+const sinhala = Yaldevi({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  weight: ['200', '300', '400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {

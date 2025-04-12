@@ -84,7 +84,7 @@ export default function Home() {
       <div className=' flex flex-col items-center justify-center bg-orange-200  py-20'>
         <div className='py-2 font-medium text-xl'>ඊලග නැකත</div>
         <motion.div
-          className='text-2xl md:text-3xl font-bold mb-6 px-4 text-center'
+          className='text-2xl md:text-3xl font-medium mb-6 px-4 text-center'
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </div>
       <div className='py-20 max-w-screen-xl mx-auto px-4'>
-        <div className='text-center font-bold text-3xl py-3'>
+        <div className='text-center font-medium text-3xl py-3'>
           2025 අලුත් අවුරුදු නැකැත්
         </div>
         <div className='text-sm lg:text-lg py-3 text-justify'>
@@ -122,7 +122,7 @@ export default function Home() {
           මෙන් නොව, සිංහල සහ දෙමළ අලුත් අවුරුද්ද විවිධ චාරිත්‍ර වාරිත්‍ර සහ
           සිරිත් විරිත් නියම කරන අද්විතීය නැකත් (සුබ කාල) මාලාවක් අනුගමනය කරයි.
         </div>
-        <div className='text-center font-bold text-xl py-3'>
+        <div className='text-center font-semibold text-xl py-3'>
           නැකත් වල වැදගත්කම
         </div>
         <div className='text-sm lg:text-lg text-justify'>
@@ -135,7 +135,7 @@ export default function Home() {
 
         <div className='py-10 max-w-screen-md mx-auto border border-orange-500 rounded-4xl mt-10 px-10 flex flex-col gap-5'>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               නව සඳ බැලීම
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -144,7 +144,7 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               පරණ අවුරුද්ද සඳහා ස්නානය
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               අලුත් අවුරුදු උදාව
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -162,7 +162,7 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               පුණ්‍ය කාලය
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -176,7 +176,9 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>ආහර පිසීම</div>
+            <div className='text-center font-semibold text-xl py-3'>
+              ආහර පිසීම
+            </div>
             <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 14 වැනි සඳුදා පූර්වභාග 04.04 ට තඹ වර්ණ වස්ත්‍රාභරණයෙන්
               සැරසී දකුණු දිශාව බලා ළිප් බැඳ ගිනි මොළවා කිරිබතක්ද කැවිලි
@@ -184,7 +186,7 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               වැඩ ඇල්ලීම, ගනුදෙනු කිරීම හා ආහාර අනුභවය
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -194,7 +196,7 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               හිසතෙල් ගෑම
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -204,7 +206,7 @@ export default function Home() {
             </div>
           </div>
           <div className=''>
-            <div className='text-center font-bold text-xl py-3'>
+            <div className='text-center font-semibold text-xl py-3'>
               රැකීරක්ෂා සඳහා පිටත්ව යෑම
             </div>
             <div className='text-sm lg:text-lg text-center'>
@@ -241,13 +243,11 @@ function TimeCard({ value, label }: { value: number; label: string }) {
         key={value}
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className=' text-3xl md:text-4xl font-mono'
+        className=' text-3xl md:text-4xl font-semibold'
       >
         {String(value).padStart(2, '0')}
       </motion.div>
-      <div className='text-sm md:text-base text-zinc-500 mt-1 capitalize'>
-        {label}
-      </div>
+      <div className='text-sm md:text-base text-zinc-500 mt-1 '>{label}</div>
     </motion.div>
   );
 }
