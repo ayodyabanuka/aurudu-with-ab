@@ -117,7 +117,7 @@ export default function Home() {
         <div className='text-center font-bold text-xl py-3'>
           නැකත් වල වැදගත්කම
         </div>
-        <div className='text-lg text-justify'>
+        <div className='text-sm lg:text-lg text-justify'>
           නැකත් යනු විවිධ අවුරුදු කටයුතු සඳහා ජ්‍යෝතිඃ ශාස්ත්‍රඥයින් විසින් නියම
           කරන ලද පූර්ව නිශ්චිත සුබ වේලාවන් ය. ඉදිරි වසර සඳහා සමෘද්ධිය, සෞඛ්‍යය
           සහ සතුට සහතික කිරීම සඳහා මෙම නිශ්චිත වේලාවන් මහත් භක්තියෙන් අනුගමනය
@@ -130,7 +130,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               නව සඳ බැලීම
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අභිනව චන්ද්‍ර වර්ෂය සඳහා මාර්තු මස 30 වැනි ඉරිදා දින ද අභිනව සූර්ය
               වර්ෂය සඳහා මැයි මස 01 වැනි බ්‍රහස්පතින්දා දින ද නව සඳ බැලීම මැනවි.
             </div>
@@ -139,7 +139,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               පරණ අවුරුද්ද සඳහා ස්නානය
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 13 වැනි ඉරිදා දින දිවුල්පත් යුෂ මිශ්‍ර නානු ගා ස්නානය
               කොට ඉෂ්ට දේවතා අනුස්මරණයෙහි යෙදී වාසය මැනවි.
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               අලුත් අවුරුදු උදාව
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 14 වැනි සඳුදා දින පූර්වභාග 03.21 ට සිංහල අලුත්
               අවුරුද්ද උදාවෙයි.
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               පුණ්‍ය කාලය
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 13 වැනි ඉරිදා අපරභාග 08.57 සිට පසුදින එනම් 14 වැනි
               සඳුදා පූර්වභාග 09.45 දක්වා පුණ්‍ය කාලය බැවින් අපේල් මස් 13 ඉරිදා
               අපරභාග 08.57 ට පළමුව ආහාර පාන ගෙන සියලු වැඩ අත්හැර ආගමික වතාවත්වල
@@ -169,7 +169,7 @@ export default function Home() {
           </div>
           <div className=''>
             <div className='text-center font-bold text-xl py-3'>ආහර පිසීම</div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 14 වැනි සඳුදා පූර්වභාග 04.04 ට තඹ වර්ණ වස්ත්‍රාභරණයෙන්
               සැරසී දකුණු දිශාව බලා ළිප් බැඳ ගිනි මොළවා කිරිබතක්ද කැවිලි
               වර්ගයක්ද දී කිරි සහ විලඳ ද පිළියෙල කර ගැනීම මැනවි.
@@ -179,7 +179,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               වැඩ ඇල්ලීම, ගනුදෙනු කිරීම හා ආහාර අනුභවය
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 14 වැනි සඳුදා පූර්වභාග 06.44 ට මුතු හා ශ්වේත වර්ණ
               වස්ත්‍රාභරණයෙන් සැරසී දකුණු දිශාව බලා සියලු වැඩ අල්ලා ගනුදෙනු කොට
               ආහාර අනුභව කිරීම මැනවි.
@@ -189,7 +189,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               හිසතෙල් ගෑම
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 16 වැනි බදාදා පූර්වභාග 09.04 ට පච්ච හෙවත් කොල පැහැති
               වස්ත්‍රාභරණයෙන් සැරසී උතුරු දිශාව බලා හිසට කොහොඹ පත් ද පයට කොළොන්
               පත් ද තබා කොහොඹ පත් යුෂ මිශ්‍ර නානු හා තෙල් ගා ස්නානය කිරීම මැනවි.
@@ -199,7 +199,7 @@ export default function Home() {
             <div className='text-center font-bold text-xl py-3'>
               රැකීරක්ෂා සඳහා පිටත්ව යෑම
             </div>
-            <div className='text-lg text-center'>
+            <div className='text-sm lg:text-lg text-center'>
               අප්‍රේල් මස 17 වැනි බ්‍රහස්පතින්දා පූර්වභාග 09.03 ට රන්වන් පැහැති
               වස්ත්‍රාභරණයෙන් සැරසී කිරිබතක් හා එළකිරි මිශ්‍ර කැවිලි වර්ගයක්
               අනුභව කර උතුරු දිශාව බලා පිටත්ව යෑම මැනවි.
