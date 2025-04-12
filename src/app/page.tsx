@@ -97,7 +97,15 @@ export default function Home() {
             <TimeCard
               key={unit}
               value={timeLeft[unit as keyof typeof timeLeft] ?? 0}
-              label={unit}
+              label={
+                unit === 'days'
+                  ? 'දින'
+                  : unit === 'hours'
+                  ? 'පැය'
+                  : unit === 'minutes'
+                  ? 'විනාඩි'
+                  : 'තත්පර'
+              }
             />
           ))}
         </div>
